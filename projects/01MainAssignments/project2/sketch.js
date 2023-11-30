@@ -10,7 +10,7 @@ function preload() {
 
 // text rendering, sets the text size, and then calls function
 function setup() {
-  createCanvas(1400, 700);
+  createCanvas(windowWidth, windowHeight);
   textFont(font);
   textSize(x);
   initializeLetters();
